@@ -22,7 +22,7 @@ const CreateCar = () => {
 
   // Fetch customizations from the database when the component mounts
   useEffect(() => {
-    // For simplicity, I'm using fetch. You might be using axios or another library.
+    // For simplicity, I'm using fetch.
 
     fetch("/api/cars")
       .then((response) => response.json())
