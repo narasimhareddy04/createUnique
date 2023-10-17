@@ -31,7 +31,8 @@ The following **additional** features are implemented:
 ## Video Walkthrough
 
 Here's a walkthrough of implemented required features:
-![Create Unique](https://github.com/narasimhareddy04/createUnique/assets/63772959/91c70763-c4e1-490d-8572-4c591a1c9afb)
+
+![Create Unique](https://github.com/narasimhareddy04/createUnique/assets/63772959/73575d7b-df7a-4fad-bc2c-9e9d940a6232)
 
 
 <img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
