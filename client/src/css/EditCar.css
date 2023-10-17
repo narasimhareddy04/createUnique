@@ -1,0 +1,46 @@
+.edit-car-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #f2f2f2;
+  border-radius: 8px;
+  width: 50%;
+  margin: 40px auto;
+  color: black;
+}
+
+.edit-car-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: black;
+}
+
+.edit-car-label {
+  font-size: 18px;
+  margin-top: 10px;
+  color: black;
+}
+
+.edit-car-select {
+  margin-left: 10px;
+  padding: 5px;
+  font-size: 16px;
+  border-radius: 4px;
+  color: black;
+}
+
+.edit-car-btn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: rgb(115, 2, 12);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.edit-car-btn:hover {
+  background-color: blue;
+}

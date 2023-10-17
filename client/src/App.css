@@ -1,12 +1,77 @@
 .app {
-    background: url('./assets/background.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    width: 100vw;
-    height: 100vh;
-    overflow-y: scroll;
-    overflow-x: hidden;
-    padding-bottom: 50px;
+  background: url("./assets/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  width: 100vw;
+  min-height: 100vh;
+
+  overflow-y: scroll;
+  overflow-x: hidden;
+  padding-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  font-family: "Arial", sans-serif;
+}
+
+/* Styling for the CreateCar page */
+.create-car-container {
+  /* background: rgba(255, 255, 255, 0.8); */
+  background-color: transparent;
+  color: white;
+  border-radius: 8px;
+  border-color: rgb(115, 2, 12);
+  border-width: 5px;
+  border-style: solid;
+  padding: 40px;
+  width: 70%; /* Or any other suitable width */
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+  margin-top: 150px;
+}
+
+.create-car-container label {
+  display: block;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+.create-car-container select {
+  width: 100%;
+  padding: 10px 15px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  margin-top: 8px;
+  color: black;
+}
+
+.create-car-container button {
+  padding: 10px 25px;
+  background-color: rgb(115, 2, 12); /* Change to your brand color */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.create-car-container button:hover {
+  background-color: #0056b3; /* Slightly darker shade of the color above */
+}
+
+/* Animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.create-car-container {
+  animation: fadeIn 1s forwards;
 }

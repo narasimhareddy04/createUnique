@@ -283,7 +283,7 @@ const addUserCustomCar = async (req, res) => {
     // Send response
     res.status(201).json({
       message: "User custom car added successfully!",
-      userCustomCarId: result.rows[0].id,
+      id: result.rows[0].id,
       totalCost,
     });
   } catch (error) {
@@ -369,7 +369,8 @@ const updateCar = async (req, res) => {
 const updateUserCustomCar = async (req, res) => {
   const client = await pool.connect();
   try {
-    const { id, model_name, exterior, interior, roof, wheels } = req.body;
+    const { id } = req.params;
+    const { model_name, exterior, interior, roof, wheels } = req.body;
 
     // Start transaction
     await client.query("BEGIN");
