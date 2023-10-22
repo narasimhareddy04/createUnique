@@ -1,12 +1,8 @@
-# WEB103 Project 4 - *Create Unique*
-
-Submitted by: **Mohana Narasimha Reddy Attunuru**
+# *Create Unique*
 
 About this web app: **"Create Unique" is a web application dedicated to car enthusiasts. It offers users the opportunity to customize their cars with a range of options, including selecting specific car models, interiors, exteriors, roofs, wheels, and more. After creating their dream cars, users can view detailed specifications and even check out images of their customized vehicles.**
 
-Time spent: **72** hours
-
-## Required Features
+## Implemented Features
 
 The following **required** functionality is completed:
 
@@ -17,7 +13,6 @@ The following **required** functionality is completed:
 - [x] **Users can view a list of options they can select for different aspects of a `CustomCar`**
 - [x] **On selecting each option, the displayed visual icon for the `CustomCar` updates to match the option the user chose**
 - [x] **The user can submit their choices to save the car to the list of created `CustomCar`**
-- [ ] **If a user submits a feature combo that is impossible, they should receive an appropriate error message and the item should not be saved to the database**
 - [x] **The app displays the total price of all features**
 - [x] **Users can view a list of all submitted `CustomCar`**
 - [x] **Users can edit or delete a submitted `CustomCar` from the list view of submitted `CustomCar`**
