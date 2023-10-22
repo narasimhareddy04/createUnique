@@ -8,7 +8,7 @@ The following **required** functionality is completed:
 
 <!-- Make sure to check off completed functionality below -->
 - [x] **The web app is connected to a PostgreSQL database, with an appropriately structured `CustomCar` table**
-  - [x] **NOTE: Your GIF must include a view of your Railway database that shows the contents of the table used by your app**
+  - [x] **NOTE: GIF includes a view of the Railway database that shows the contents of the table used by the app**
 - [x] **The web app uses React to display data from the API**
 - [x] **Users can view a list of options they can select for different aspects of a `CustomCar`**
 - [x] **On selecting each option, the displayed visual icon for the `CustomCar` updates to match the option the user chose**
